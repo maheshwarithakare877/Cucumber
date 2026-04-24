@@ -1,0 +1,847 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 8, 2026 06:14:50 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Sprint1</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login with Invalid User</p>
+            <p class="text-sm">
+              <span>6:14:50 PM</span> / <span>00:01:28:735</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login with Invalid User</h5>
+<span class='badge badge-success'>04.08.2026 6:14:50 PM</span>
+<span class='badge badge-danger'>04.08.2026 6:16:19 PM</span>
+<span class='badge badge-default'>00:01:28:735</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login with InValid User Test</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login with InValid User Test</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter username as "Admin" and password as "ghtyujnn"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User verified it error message should be "Invalid credentials"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Login with InValid User Test</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter username as "sadsa" and password as "admin123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User verified it error message should be "Invalid credentials"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Login with InValid User Test</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter username as "asdas" and password as "asdsa"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User verified it error message should be "Invalid credentials"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Functionality with valid user</p>
+            <p class="text-sm">
+              <span>6:16:19 PM</span> / <span>00:00:37:579</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Functionality with valid user</h5>
+<span class='badge badge-success'>04.08.2026 6:16:19 PM</span>
+<span class='badge badge-danger'>04.08.2026 6:16:57 PM</span>
+<span class='badge badge-default'>00:00:37:579</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Login with Valid User Test</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_is_on_the_login_page()">
+                <span>Given User is on the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_enter_username_as_and_password_as(java.lang.String,java.lang.String)">
+                <span>When User enter username as "Admin" and password as "admin123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_verified_it_redirected_to_the_dashboard()">
+                <span>Then User verified it redirected to the dashboard</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_should_see_following_dashbord_menu_items(java.util.List<java.lang.String>)">
+                <span>When user should see following Dashbord menu items:</span>
+      <div><table class='markup-table table '><tr><td>Admin</td></tr><tr><td>PIM</td></tr><tr><td>Leave</td></tr><tr><td>Time</td></tr><tr><td>Recruitment</td></tr><tr><td>My Info</td></tr><tr><td>Performance</td></tr><tr><td>Dashboard</td></tr><tr><td>Directory</td></tr><tr><td>Maintenance</td></tr><tr><td>Claim</td></tr><tr><td>Buzz</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="49"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login with Invalid User</p>
+            <p class="text-sm">
+              <span>6:16:57 PM</span> / <span>00:00:01:331</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login with Invalid User</h5>
+<span class='badge badge-success'>04.08.2026 6:16:57 PM</span>
+<span class='badge badge-danger'>04.08.2026 6:16:58 PM</span>
+<span class='badge badge-default'>00:00:01:331</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log fail-bg mr-2">Fail</span>Login with Invalid User</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>hook.Hooks.setup()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c3200e70d69ea71b6878ed6712c3ced, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\mahes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, goog:processID: 14500, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c3200e70d69ea71b6878ed6712c3ced
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1197)
+	at hook.Hooks.setup(Hooks.java:78)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_is_on_the_login_page()">
+                <span>Given User is on the login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_enters_below_creds_as_map(io.cucumber.datatable.DataTable)">
+                <span>When User enters below creds as Map:</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>Admin</td><td>admin1236</td></tr><tr><td>testAdmin</td><td>admin789</td></tr><tr><td>testAdmin</td><td>admin8463</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_should_verifies_error_massage(java.lang.String)">
+                <span>Then user should verifies error massage   "Invalid credentials"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hook.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded1.png' src="../screenshots/embedded1.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="61"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Functionality with Invalid data</p>
+            <p class="text-sm">
+              <span>6:16:58 PM</span> / <span>00:01:03:775</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Functionality with Invalid data</h5>
+<span class='badge badge-success'>04.08.2026 6:16:58 PM</span>
+<span class='badge badge-danger'>04.08.2026 6:18:02 PM</span>
+<span class='badge badge-default'>00:01:03:775</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="62"><span class="badge log fail-bg mr-2">Fail</span>Invalid user login with data table</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_is_on_the_login_page()">
+                <span>Given User is on the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_tries_login_with_following_credentials(io.cucumber.datatable.DataTable)">
+                <span>When user tries login with following credentials:</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>Admin</td><td>admin1236</td></tr><tr><td>testAdmin</td><td>admin789</td></tr><tr><td>testAdmin</td><td>admin8463</td></tr></table>
+      </div>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2e9577c37ea7858f9daaa89e65fe0da, findElement {value=//input[@name='username'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\mahes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57362}, goog:processID: 23076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57362/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2e9577c37ea7858f9daaa89e65fe0da
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:222)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:215)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at stepdefinition.loginStepdefinition.LoginPageSteps.user_tries_login_with_following_credentials(LoginPageSteps.java:87)
+	at ✽.user tries login with following credentials:(file:///D:/MavenProject/Stad-New-Cucumber-Project/src/test/resources/features/placeOrder/placeOrder.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.loginStepdefinition.LoginPageSteps.user_should_verifies_error_massage(java.lang.String)">
+                <span>Then user should verifies error massage   "Invalid credentials"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>hook.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2e9577c37ea7858f9daaa89e65fe0da, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\mahes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57362}, goog:processID: 23076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57362/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2e9577c37ea7858f9daaa89e65fe0da
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+	at hook.Hooks.tearDown(Hooks.java:97)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchSessionException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchSessionException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:17:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='69'>When user tries login with following credentials:</a>
+<div class="">
+<span class="badge badge-default">Login Functionality with Invalid data.Invalid user login with data table.When user tries login with following credentials:</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='71'>hook.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login Functionality with Invalid data.Invalid user login with data table.hook.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.WebDriverException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.WebDriverException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:16:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='53'>hook.Hooks.setup()</a>
+<div class="">
+<span class="badge badge-default">Login with Invalid User.Login with Invalid User.hook.Hooks.setup()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@Sprint1</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Sprint1</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:14:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Login with InValid User Test</a>
+<div class="">
+<span class="badge badge-default">Login with Invalid User.Login with InValid User Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:15:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Login with InValid User Test</a>
+<div class="">
+<span class="badge badge-default">Login with Invalid User.Login with InValid User Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:15:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Login with InValid User Test</a>
+<div class="">
+<span class="badge badge-default">Login with Invalid User.Login with InValid User Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:16:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='37'>Login with Valid User Test</a>
+<div class="">
+<span class="badge badge-default">Login Functionality with valid user.Login with Valid User Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:16:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='50'>Login with Invalid User</a>
+<div class="">
+<span class="badge badge-default">Login with Invalid User.Login with Invalid User</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:16:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='62'>Invalid user login with data table</a>
+<div class="">
+<span class="badge badge-default">Login Functionality with Invalid data.Invalid user login with data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 8, 2026 06:14:50 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 8, 2026 06:18:02 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'><b>4</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='33%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='68%'><b>15</b> steps passed</small></div>
+<div>
+<small data-tooltip='13%'><b>3</b> steps failed,
+<b>4</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login with Invalid User":88.735,"Login Functionality with valid user":37.579,"Login with Invalid User":1.331,"Login Functionality with Invalid data":63.775
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Sprint1</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 4,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 15,
+failGrandChild: 3,
+warningGrandChild: 0,
+skipGrandChild: 4,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
