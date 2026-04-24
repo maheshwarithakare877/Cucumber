@@ -28,6 +28,7 @@ public class LoginPage
         driver.findElement(userNameField).sendKeys(username);
 
     }
+
     public void enterPassword(String password)
     {
         driver.findElement(passwordField).sendKeys(password);

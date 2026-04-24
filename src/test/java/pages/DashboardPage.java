@@ -16,6 +16,7 @@ public class DashboardPage
     }
 
     //Locators
+
     public By dashBoardField=By.xpath("//h6[contains(.,Dashboard')]");
     public By dashBoardItems=By.cssSelector("ul.oxd-main-menu >li span.oxd-text ");
 
