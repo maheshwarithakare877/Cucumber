@@ -25,6 +25,7 @@ import java.util.logging.SimpleFormatter;
 
 public class Hooks
 {
+
     static WebDriver driver;
     static ExtentReports extent;
     static ExtentTest test;
