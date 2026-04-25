@@ -25,6 +25,7 @@ import java.util.logging.SimpleFormatter;
 
 public class Hooks
 {
+
     static WebDriver driver;
     static ExtentReports extent;
     static ExtentTest test;
@@ -36,6 +37,7 @@ public class Hooks
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("os",System.getProperty("os.name"));
         extent.setSystemInfo("Java Version",System.getProperty("java.version"));
+        System.out.println("vhhkj.lkm.km");
     }
     @Before(order = 1)
 public void launchBrowser()
