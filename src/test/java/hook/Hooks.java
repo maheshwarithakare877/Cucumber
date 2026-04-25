@@ -37,7 +37,7 @@ public class Hooks
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("os",System.getProperty("os.name"));
         extent.setSystemInfo("Java Version",System.getProperty("java.version"));
-        System.out.println("vhhkj.lkm.km");
+        System.out.println("hookkkk");
     }
     @Before(order = 1)
 public void launchBrowser()
